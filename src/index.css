@@ -1,0 +1,61 @@
+/* MAIN AREA*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
+
+main {
+    padding: 36px;
+}
+
+/* HEADER */
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: lightblue;
+    background: linear-gradient(90deg, #672280 0%, #A626D3 100%);
+}
+
+.header-title {
+    padding-left: 20px;
+}
+
+.project-title {
+    padding-right: 20px;
+}
+
+
+/* MAIN CONTENT BUTTON AREA */
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 15px;
+
+}
+
+.form-input {
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
+}
+
+.form-button {
+    grid-column: 1 / -1;
+    border-radius: 5px;
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.meme-image {
+    max-width: 100%;
+}
